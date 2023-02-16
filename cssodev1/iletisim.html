@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mono Müzik - İletişim</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            background-size: 100% 100%;
+            height: 100vh;
+            background-image: url(../images1/arda2.jpeg);
+        }
+
+        .navbar{
+            width: 100%;
+            height: 85px;
+            background-color: rgba(245, 246, 248, 0.5);
+        }
+
+        .navbar .logo{
+            display: inline-block;
+            margin-left: 40px;
+            margin-top: 30px;
+            text-decoration: none;
+            font-family: sans-serif;
+            font-size: 2em;
+            color: rgb(247, 249, 250);
+        }
+
+
+        .navbar ul{
+            float: right;
+            margin-right: 30px;
+        }
+
+        .navbar ul li{
+            list-style-type: none;
+            display: inline-block;
+            margin: 0 15px;
+            line-height: 90px;
+        }
+
+        .navbar ul li a{
+            text-decoration: none;
+            font-size: 1.5em;
+            font-family: sans-serif;
+            color: white;
+            padding: 8px 15px;
+        }
+
+        .navbar ul li a.active,
+        .navbar ul li a:hover{
+            background-color: #ff6e00;
+            border-radius: 2px;
+        }
+
+        .content{
+            display: inline-block;
+        }
+
+        .content address{
+            color: white;
+            font-size: 1.3em;
+            font-family: sans-serif;
+            margin-left: 280px;
+            margin-top: 100px;
+        }
+
+        .btn{
+            display: inline-block;
+            text-decoration: none;
+            margin: 100px 300px;
+            padding: 25px 35px;
+            font-size: 20px;
+            font-family: sans-serif;
+            color: white;
+        }
+
+        .btn1{
+            background-color: #182747;
+        }
+
+        .btn1:hover{
+            background-color: aliceblue;
+            color: #182747;
+        }
+
+        .btn2{
+            background-color: #182747;
+        }
+
+        .btn2:hover{
+            background-color: aliceblue;
+            color: #182747;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- Navbar Start -->
+    <div class="navbar">
+        <a href="#" class="logo">MONO MÜZİK</a>
+        <ul>
+            <li><a href="index.html">Ana Sayfa</a></li>
+            <li><a href="urunler.html">Ürünler</a></li>
+            <li><a href="about-us.html">Hakkımızda</a></li>
+            <li><a href="iletisim.html" class="active">İletişim</a></li>
+        </ul>
+    </div>
+    <!-- Navbar End -->
+    <!-- Contend Start -->
+    <div class="content">
+    <address>
+        ADRES: Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, hic debitis? Dolor ea delectus excepturi!
+    </address>
+    </div>
+    <a href="tel:0111 222 33 44" class="btn btn1">
+        <i class="fa fa-phone" aria-hidden="true"></i>&nbsp;
+        Telefon
+    </a>
+    <a href="mailto:bizeulas@aaaa.com" class="btn btn2">
+        <i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;
+        Mail
+    </a>
+    <!-- Content End -->
+</body>
+</html>
